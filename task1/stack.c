@@ -13,7 +13,7 @@ int bof(char *str)
 char buffer[18];
 /* The following statement has a buffer overflow problem */
 strcpy(buffer, str);
-printf("passed strcpy\n");
+printf("%s" buffer);
 return 1;
 }
 
