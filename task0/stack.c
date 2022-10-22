@@ -4,6 +4,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+
+
+
+
 int bof(char *str)
 {
 char buffer[18];
@@ -11,6 +15,8 @@ char buffer[18];
 strcpy(buffer, str);
 return 1;
 }
+
+
 int main(int argc, char **argv)
 {
 char str[517];
