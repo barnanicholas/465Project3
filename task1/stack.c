@@ -13,6 +13,7 @@ int bof(char *str)
 char varA[18];
 /* The following statement has a buffer overflow problem */
 strcpy(varA, str);
+printf("%p\n", (void*)varA);
 
 return 1;
 }
