@@ -10,9 +10,9 @@
 
 int bof(char *str)
 {
-char buffer[18];
+char varA[18];
 /* The following statement has a buffer overflow problem */
-strcpy(buffer, str);
+strcpy(varA, str);
 
 return 1;
 }
